@@ -6,8 +6,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class MypipePipe implements PipeTransform {
 
   transform(value: number, args?: any): any {
-    value=value+5;
-    return value;
+    return value+5;
   }
 
 }
