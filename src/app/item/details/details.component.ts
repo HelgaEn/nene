@@ -12,7 +12,8 @@ export class DetailsComponent implements OnInit {
     
   }
 
-  ngOnInit(): void {
+  ngOnInit(): void { 
+   
     console.log('Текущий параметр маршрута: ',this.activeRouter.snapshot.params);
   }
   
