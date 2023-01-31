@@ -1,0 +1,22 @@
+*{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.main{
+    text-align: center;
+    vertical-align: middle;
+}
+.start{
+    margin: 10px auto;
+   
+}
+.colums{
+    display: flex;
+    justify-content: center;
+}
+.frst, .scnd{
+    display: flex;
+    justify-content: center;
+    margin: 2.3201856vw;
+}
+
