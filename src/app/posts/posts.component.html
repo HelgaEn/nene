@@ -1,0 +1,12 @@
+
+
+<router-outlet></router-outlet>
+
+<ng-container *ngFor="let poster of post">
+   <div class="card container p-3"> 
+    {{poster.id}}
+    <h2>{{poster.title}}</h2>
+    <p>{{poster.body}}</p>
+    <button class="btn col-2 mx-auto btn-danger" (click)="open(poster)">открыть</button>
+</div>
+  </ng-container>
