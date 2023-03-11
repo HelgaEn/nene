@@ -1,0 +1,12 @@
+<h1  class="text-center my-5">Администрирование - товары</h1>
+
+    <div class="card shadow-sm my-3 mx-4"  >
+            <div class="card-header">
+              Доступные товары
+            </div>
+            <ul class="list-group list-group-flush">
+                <ng-container *ngFor="let post of getpost.post_inf">
+                <li class="list-group-item" (click)="open(post.id)">Редактировать {{post.title}} {{post.price}} $</li>
+            </ng-container>
+            </ul>
+</div>

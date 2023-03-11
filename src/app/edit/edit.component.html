@@ -1,0 +1,31 @@
+
+<h1 class="text-center my-5">Редактирование</h1>
+
+<form class="container mb-5">
+    <div class="mb-3">
+      <label class="form-label">Наименование</label>
+      <input name="title" [(ngModel)]="current.title" type="text" class="form-control">
+    </div>
+    <div class="mb-3">
+      <label class="form-label">Цена</label>
+      <input name="price" [(ngModel)]="current.price" type="text" class="form-control">
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Описание</label>
+        <input name="description" [(ngModel)]="current.description" type="text" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Рейтинг</label>
+        <input name="rating" [(ngModel)]="current.rating" type="text" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Бренд</label>
+        <input name="brand" [(ngModel)]="current.brand" type="text" class="form-control">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Изображение</label>
+        <input name="image" [(ngModel)]="current.image" type="text" class="form-control">
+      </div>
+    <button (click)="edit()" type="submit" class="btn btn-primary">Сохранить</button>
+  </form>
+  
